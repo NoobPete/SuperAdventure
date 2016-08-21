@@ -1,0 +1,5 @@
+G:\Programming\CsharpRPG\Engine\bin\Debug\Engine.dll
+G:\Programming\CsharpRPG\Engine\bin\Debug\Engine.pdb
+G:\Programming\CsharpRPG\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+G:\Programming\CsharpRPG\Engine\obj\Debug\Engine.dll
+G:\Programming\CsharpRPG\Engine\obj\Debug\Engine.pdb
