@@ -17,17 +17,12 @@ namespace SuperAdventure {
 
 			Location location = new Location(1, "Home", "This is your house");
 
-			player = new Player();
-			player.currentHitPoints = 10;
-			player.maximumHitPoints = 10;
-			player.gold = 20;
-			player.experiencePoints = 0;
-			player.levell = 1;
-
+			player = new Player(10, 10, 20, 0, 1);
+			
 			lblHitPoints.Text = player.currentHitPoints.ToString();
 			lblGold.Text = player.gold.ToString();
 			lblExperience.Text = player.experiencePoints.ToString();
-			lblLevel.Text = player.levell.ToString();
+			lblLevel.Text = player.level.ToString();
 		}
 
 		

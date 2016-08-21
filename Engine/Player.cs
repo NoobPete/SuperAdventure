@@ -8,6 +8,12 @@ namespace Engine {
 	public class Player :LivingCreature {
 		public int gold { get; set; }
 		public int experiencePoints { get; set; }
-		public int levell { get; set; }
+		public int level { get; set; }
+
+		public Player(int cCurrentHitPoints, int cMaximumHitPoints, int g, int xp, int lvl) : base(cCurrentHitPoints, cMaximumHitPoints) {
+			gold = g;
+			experiencePoints = xp;
+			level = lvl;
+		}
 	}
 }
