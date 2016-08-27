@@ -44,6 +44,8 @@
 			this.rtbMessages = new System.Windows.Forms.RichTextBox();
 			this.dgvMessages = new System.Windows.Forms.DataGridView();
 			this.dgvInventory = new System.Windows.Forms.DataGridView();
+			this.lblRace = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.dgvMessages)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
 			this.SuspendLayout();
@@ -251,11 +253,30 @@
 			this.dgvInventory.Size = new System.Drawing.Size(312, 309);
 			this.dgvInventory.TabIndex = 21;
 			// 
+			// lblRace
+			// 
+			this.lblRace.AutoSize = true;
+			this.lblRace.Location = new System.Drawing.Point(258, 19);
+			this.lblRace.Name = "lblRace";
+			this.lblRace.Size = new System.Drawing.Size(0, 13);
+			this.lblRace.TabIndex = 23;
+			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Location = new System.Drawing.Point(166, 20);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(36, 13);
+			this.label7.TabIndex = 22;
+			this.label7.Text = "Race:";
+			// 
 			// SuperAdventure
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(719, 651);
+			this.Controls.Add(this.lblRace);
+			this.Controls.Add(this.label7);
 			this.Controls.Add(this.dgvInventory);
 			this.Controls.Add(this.dgvMessages);
 			this.Controls.Add(this.rtbMessages);
@@ -309,6 +330,8 @@
 		private System.Windows.Forms.RichTextBox rtbMessages;
 		private System.Windows.Forms.DataGridView dgvMessages;
 		private System.Windows.Forms.DataGridView dgvInventory;
-	}
+        private System.Windows.Forms.Label lblRace;
+        private System.Windows.Forms.Label label7;
+    }
 }
 
