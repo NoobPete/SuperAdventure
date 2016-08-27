@@ -1,1 +1,4 @@
-SuperAdventure/bin/Debug/SuperAdventure.7z
+SuperAdventure/bin/Debug/
+SuperAdventure/bin/obj/
+Engine/bin/Debug/
+Engine/bin/obj/
