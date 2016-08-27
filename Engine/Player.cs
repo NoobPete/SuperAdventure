@@ -11,6 +11,7 @@ namespace Engine {
 		public int level { get; set; }
 		public List<InventoryItem> inventory { get; set; }
 		public List<PlayerQuest> quests { get; set; }
+		public Location CurrentLocation { get; set; }
 
 		public Player(int cCurrentHitPoints, int cMaximumHitPoints, int g, int xp, int lvl) : base(cCurrentHitPoints, cMaximumHitPoints) {
 			gold = g;
