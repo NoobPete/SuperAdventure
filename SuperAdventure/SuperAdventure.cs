@@ -23,6 +23,8 @@ namespace SuperAdventure {
 			lblGold.Text = player.gold.ToString();
 			lblExperience.Text = player.experiencePoints.ToString();
 			lblLevel.Text = player.level.ToString();
+            lblRace.Text = player.race.ToString();
+
 		}
 
 		
